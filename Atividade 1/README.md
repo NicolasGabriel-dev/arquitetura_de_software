@@ -8,16 +8,30 @@ Disciplina: Arquitetura de Software - Prof. Jacqueline Teixeira
 1. Análise do Código Legado e Violações Encontradas
 
 No código original fornecido, observamos os seguintes problemas estruturais:
-Alto Acoplamento Concreto:
+
+Alto Acoplamento Concreto: 
+
+                Não é possível encontrar alto acoplamento concreto no código concreto.
+
 Violação do DIP:
+        
+                Percebe-se no código legado a enorme dependência da classe "GeradorRelatorioLegado" ao utilizar as classes "MySQLConnection" e "SmtpEmailSender" para efetuar a conexão buscando dados financeiros no banco de dados contendo o relatório financeiro.    
+        
 Violação do OCP:
+
+        A violação vista no código legado situa-se na incapacidade de  
+
 Impossibilidade de Testes Unitários:
 
 2. Mudanças Efetuadas e Justificativa Técnica
 
 1. Criação de Contratos (Interfaces):
-Justificativa:
+        
 2. Injeção de Dependência (DI):
-Justificativa:
+
+        A injeção de dependência vista no código legado
+
 3. Extensão via Princípio Aberto/Fechado (OCP):
-Justificativa:
+
+        
+

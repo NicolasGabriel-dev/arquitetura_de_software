@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class MySQLConnection {
     buscarDadosFinanceiros() {
         console.log("[INFRA] Conectando ao MySQL e buscando lançamentoos...");
@@ -22,4 +21,3 @@ class GeradorRelatorioLegado {
         emailSender.enviarEmail(destino, relatorioFormatado);
     }
 }
-//# sourceMappingURL=index.js.map
